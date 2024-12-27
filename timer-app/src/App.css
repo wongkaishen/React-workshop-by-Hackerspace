@@ -1,0 +1,93 @@
+.backButton{
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  border: 1px solid #888;
+  border-radius: 0.5em;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 10px; 
+}
+
+.timer-container {
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 50%; 
+  max-height: 40%;
+  min-width: 300px; 
+  min-height: 200px; 
+  width: 100%; 
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.activity-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem; 
+}
+
+.activity-buttons-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  gap: 10px; 
+}
+
+.action-buttons-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 10px; 
+}
+
+.timer-text{
+  font-size: 5rem;
+}
+
+button {
+  padding: 10px 5%;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+  min-width: 120px; 
+}
+
+#stop-button {
+  background-color: red;
+}
+
+#start-button {
+  background-color: green;
+}
+
+#reset-button {
+  background-color: yellow;
+}
+
